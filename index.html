@@ -8,7 +8,7 @@
     <script>
 
     function game() {
-    // 1. PROMPT user for input that is player selection for RPS
+        
     let playerScore = 0, computerScore = 0
 
     // 2. RETURN a random value of RPS for function computerPlay
@@ -84,6 +84,9 @@
     // 5. PRINT results of each round and winner of game with 
     // console.log()
         for (let i = 0; i < 5; i++) {
+            
+            // 1. PROMPT user for input that is player selection for RPS
+
             let playerSelection = prompt("Rock, Paper or Scissors?")
 
             console.log(playRound(playerSelection, computerSelection))
