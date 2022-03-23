@@ -2,7 +2,7 @@
     font-family: 'Pokemon Solid';
     font-style: normal;
     font-weight: 400;
-    src: local('Pokemon Solid'), url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff') format('woff');
+    src: url("../Rock-Paper-Scissors/PokemonSolid.woff") format('woff');
 }
 
 @import url(//fonts.cdnfonts.com/css/pokemon-solid);
