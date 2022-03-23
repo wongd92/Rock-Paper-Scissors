@@ -9,13 +9,13 @@
 
 html {
     height: 100%;
-    
 }
 
 body {
     background-image: url("images/pokemonstadium.png");
 
     height: 100%;
+    width: 100%;
   
     background-position: center;
     background-repeat: no-repeat;
@@ -72,32 +72,42 @@ header {
     height: 75px;
 }
 
-.choices {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .choices-container {
     display: flex;
-    text-align: center;
-}
-
-.choices {
-    display: flex;
-    flex-direction: column;
-}
-
-.player-choice, .player-image {
-    padding-left: 250px;
-}
-
-.computer-choice, .computer-image {
-    padding-right: 250px;
+    justify-content: space-around;
+    position: relative;
 }
 
 .player-image {
-    margin-top: 200px;
+    padding-top: 5px;
+    padding-left: 35px;
+    width: 75px;
+    height: 75px;
+}
+
+.computer-image {
+    padding-top: 5px;
+    padding-right: 55px;
+    width: 75px;
+    height: 75px;
+}
+
+.player-choice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.computer-choice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.computer-choice {
+    padding-right: 100px;
 }
 
 .scb-button {
@@ -132,6 +142,7 @@ header {
 .scoreboard {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .winner-check {
@@ -173,6 +184,7 @@ header {
     text-shadow: 2px 0px #006ee6, -2px 0px #006ee6, 0px 2px #006ee6,
     0px -2px #006ee6;
   }
+
 
   .reset {
       width: 150px;

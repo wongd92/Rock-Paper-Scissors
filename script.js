@@ -63,29 +63,29 @@ function displayChoices(playerChoice, computerChoice) {
 
     switch(playerChoice) {
         case 's': 
-            playerImage.innerHTML = `<img id="s" class="pokemon-img" src="images/squirtle.png" alt="Squirtle"></img>`;
+            playerImage.innerHTML = `<img class="player-image" src="images/squirtle.png" alt="Squirtle"></img>`;
             break;
 
         case 'c':
-            playerImage.innerHTML = `<img id="c" class="pokemon-img" src="images/charmander.png" alt="Charmander"></img>`;
+            playerImage.innerHTML = `<img class="player-image" src="images/charmander.png" alt="Charmander"></img>`;
             break;
 
         case 'b': 
-            playerImage.innerHTML = `<img id="b" class="pokemon-img" src="images/bulbasaur.png" alt="bulbasaur"></img>`;
+            playerImage.innerHTML = `<img class="player-image" src="images/bulbasaur.png" alt="bulbasaur"></img>`;
         default:
     }
 
     switch(computerChoice) {
         case 's': 
-            computerImage.innerHTML = `<img id="s" class="pokemon-img" src="images/squirtle.png" alt="Squirtle"></img>`;
+            computerImage.innerHTML = `<img class="computer-image" src="images/squirtle.png" alt="Squirtle"></img>`;
             break;
 
         case 'c':
-            computerImage.innerHTML = `<img id="c" class="pokemon-img" src="images/charmander.png" alt="Charmander"></img>`;
+            computerImage.innerHTML = `<img class="computer-image" src="images/charmander.png" alt="Charmander"></img>`;
             break;
 
         case 'b': 
-            computerImage.innerHTML = `<img id="b" class="pokemon-img" src="images/bulbasaur.png" alt="bulbasaur"></img>`;
+            computerImage.innerHTML = `<img class="computer-image" src="images/bulbasaur.png" alt="bulbasaur"></img>`;
         default:
     }
 }
