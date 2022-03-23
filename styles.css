@@ -5,6 +5,8 @@
     src: local('Pokemon Solid'), url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff') format('woff');
 }
 
+@import url(//fonts.cdnfonts.com/css/pokemon-solid);
+
 html {
     height: 100%;
     
