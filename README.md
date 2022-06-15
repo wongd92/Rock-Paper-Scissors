@@ -23,3 +23,5 @@ Reflection for project:
 - More practice with arrow methods and breaking down programming logic into smaller functions
 - Additional practice with event listeners for UI/interactive elements 
 - Research and learn new ways to make code more efficient for future projects
+
+LIVE LINK: https://wongd92.github.io/Rock-Paper-Scissors/
